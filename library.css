@@ -1,0 +1,266 @@
+body {
+  font-family: sans-serif;
+  padding: 0px 0px;
+  text-align: left;
+
+  /* background-image: url(https://cdn.pixabay.com/photo/2017/04/05/04/44/background-2203989_960_720.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
+h1 {
+  font-family: "Noto Serif", serif;
+  font-weight: bold;
+  font-size: 45px;
+}
+
+.form {
+  font-size: 20px;
+  width: 700px;
+  color: #fff;
+  margin-left: 2%;
+  padding-top: 25px;
+}
+
+.form input {
+  width: 300px;
+  padding: 12px 20px;
+  border: 1px red;
+  margin: 30px auto;
+  border-radius: 100px;
+  font-size: 15px;
+}
+.formerror {
+  color: red;
+}
+
+.submit {
+  border-radius: 9px;
+  font-weight: bold;
+  width: 200px;
+  height: 50px;
+  font-size: 18px;
+  margin: 22px 20px -8px;
+}
+.submit:hover {
+  background-color: #6fdfdf;
+  color: black;
+}
+
+.view {
+  border-radius: 9px;
+  font-weight: bold;
+  width: 200px;
+  height: 50px;
+  font-size: 18px;
+  margin: 22px 20px 0% 45%;
+}
+
+.fine {
+  font-size: 25px;
+  width: 650px;
+}
+
+.header {
+  font-size: 25px;
+  width: 700px;
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 20px;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  background-color: #f54248;
+}
+.delete {
+  border-radius: 9px;
+  font-weight: bold;
+  width: 200px;
+  height: 50px;
+  font-size: 18px;
+  margin: 22px 20px;
+}
+
+.update {
+  border-radius: 9px;
+  font-weight: bold;
+  width: 200px;
+  height: 50px;
+  font-size: 18px;
+  margin: 22px 20px;
+}
+
+.buttons {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.form_footer {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: inline-block;
+}
+h3 {
+  color: #fff;
+}
+.colored-section {
+  background-color: #dd4a48;
+}
+.white-section .cards {
+  background-color: #fff;
+}
+.cards {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+.card-title {
+  text-align: center;
+}
+.card-text {
+  text-align: center;
+}
+.cover {
+  width: 100%;
+  height: 25%;
+  padding-top: 1%;
+}
+.container-fluid {
+  padding-left: 0%;
+  padding-right: 0%;
+  padding-top: 0%;
+
+  /*background-image: linear-gradient(to right, #3f3942, #b283c9);*/
+}
+.iheading {
+  height: 10em;
+  color: #fff;
+}
+.iheading {
+  margin: 0;
+  padding-top: 20px;
+  position: absolute;
+  font-size: 40px;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.topnav {
+  width: 100%;
+}
+html {
+  scroll-behavior: smooth;
+}
+.topnav a {
+  float: left;
+  /* width: 100%; */
+  text-align: center;
+  padding: 12px 0;
+  transition: all 0.3s ease;
+  color: #fff;
+  font-size: 25px;
+  padding-left: 20px;
+}
+
+.topnav a:hover {
+  background-color: #417d7a; /*Add a hover color */
+}
+#quotes {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #fff;
+  text-align: center;
+}
+.quotes-text {
+  text-align: center;
+  line-height: 1.5;
+  font-style: italic;
+  padding-bottom: 100px;
+  font-style: #383838;
+}
+em {
+  color: #383838;
+}
+/* books */
+.card-img-top {
+  /* width: 25%; */
+  /* border-radius: 100%; */
+  height: 250px;
+  width: 250px;
+  padding-left: 120px;
+  padding-top: 30px;
+}
+.card-title {
+  text-align: center;
+}
+.quotes-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.bookcards {
+  background-color: #fff;
+  margin-top: 100px;
+}
+
+.bookheading {
+  padding-top: 100px;
+  font-family: "Noto Serif", serif;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* login form */
+.login {
+  font-size: 25px;
+  width: 700px;
+  opacity: 0.8;
+  background-color: #7f8487;
+  text-align: center;
+  color: #fff;
+  padding-top: 25px;
+  font-family: "Garamond";
+}
+
+.login input {
+  width: 350px;
+  padding: 12px 20px;
+  border: 1px red;
+  margin: 30px auto;
+  border-radius: 100px;
+  font-size: 15px;
+}
+
+.loginform {
+  margin-top: 55px;
+  margin-bottom: 50px;
+}
+#submit {
+  padding-bottom: 30px;
+}
+
+.cont_form {
+  font-size: 20px;
+  width: 700px;
+  color: #fff;
+  margin-left: 2%;
+  padding-top: 25px;
+}
+.contact-header {
+  align-items: center;
+  font-weight: bold;
+}
+.cont_form input {
+  width: 300px;
+  padding: 12px 20px;
+  border: 1px red;
+  margin: 30px auto;
+  border-radius: 100px;
+  font-size: 15px;
+}
